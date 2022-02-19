@@ -3,14 +3,14 @@
 #theme: jekyll-theme-midnight
 #theme: jekyll-theme-merlot
 
-remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
-
-#remote_theme: pages-themes/dinky@v0.2.0
+#remote_theme: pages-themes/leap-day@v0.2.0
 #plugins:
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+
+remote_theme: pages-themes/dinky@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 #remote_theme: pages-themes/merlot@v0.2.0
 #plugins:
@@ -19,4 +19,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 #remote_theme: benbalter/retlab
+
+show_downloads: false
+
 
