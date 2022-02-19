@@ -1,5 +1,6 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-leap-day
+#theme: jekyll-theme-midnight
 markdown: kramdown
 highlighter: rouge
-remote_theme: benbalter/retlab
+#remote_theme: benbalter/retlab
 
