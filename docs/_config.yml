@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+markdown: kramdown
+highlighter: rouge
+remote_theme: benbalter/retlab
+
