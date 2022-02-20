@@ -31,6 +31,11 @@ kramdown:
    footnote_nr       : 1
    show_warnings     : false
 
-show_downloads: false
+gems:
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-sitemap
 
+show_downloads: false
 
