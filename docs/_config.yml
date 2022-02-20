@@ -18,10 +18,18 @@ theme: jekyll-theme-hacker
 
 #remote_theme: benbalter/retlab
 
+highlighter: rouge  
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+   input: GFM
+   hard_wrap: false
+   auto_ids: true
+   syntax_highlighter: rouge
+   entity_output     : as_char
+   toc_levels        : [1, 2, 3, 4, 5, 6]
+   smart_quotes      : lsquo,rsquo,ldquo,rdquo
+   footnote_nr       : 1
+   show_warnings     : false
 
 show_downloads: false
 
